@@ -14,6 +14,7 @@ public class Application {
         one.test1();
 
         Two two = new Two();
-        two.test();
+        two.test1();
+        two.test2();
     }
 }
