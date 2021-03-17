@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class One {
 
-    public static void test1(){
+    public void test1(){
 
 //        Objective
 //        Today, we're discussing data types. Check out the Tutorial tab for learning materials and an instructional video!
