@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class Application {
 
     public static void main(String[] args) {
-        One one = new One();
-        one.test1();
-
+//        One one = new One();
+//        one.test1();
+//
         Two two = new Two();
-        two.test1();
+//        two.test1();
         two.test2();
     }
 }
