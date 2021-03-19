@@ -1,5 +1,6 @@
 package com.study;
 
+import com.study.days.Four;
 import com.study.days.One;
 import com.study.days.Three;
 import com.study.days.Two;
@@ -20,6 +21,10 @@ public class Application {
 
         Three three = new Three();
         three.test();
+
+        Four four = new Four();
+        four.test();
+
 
     }
 }
