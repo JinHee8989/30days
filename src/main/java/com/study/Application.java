@@ -2,9 +2,11 @@ package com.study;
 
 import com.study.days.Five;
 
+import java.io.IOException;
+
 public class Application {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        One one = new One();
 //        one.test1();
 //
@@ -20,6 +22,8 @@ public class Application {
 
         Five five = new Five();
         five.test1();
+        five.test2();
+
 
 
     }

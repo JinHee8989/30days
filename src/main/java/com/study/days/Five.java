@@ -1,5 +1,8 @@
 package com.study.days;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -90,6 +93,35 @@ public class Five {
 
         in.close();
     }
+
+
+
+
+    public void test2() throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int n = scanner.nextInt();
+
+        int result = factorial(n);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
+
+        bufferedWriter.close();
+
+        scanner.close();
+    }
+
+    private int factorial(int n) {
+
+        if(n==1){
+            return 1;
+        }else{
+            return n * factorial(n-1);
+        }
+    }
+
 }
 
 
