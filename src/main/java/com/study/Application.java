@@ -1,6 +1,6 @@
 package com.study;
 
-import com.study.days.Five;
+import com.study.days.Six;
 
 import java.io.IOException;
 
@@ -20,10 +20,13 @@ public class Application {
 //        Four four = new Four();
 //        four.test();
 
-        Five five = new Five();
-        five.test1();
-        five.test2();
+//        Five five = new Five();
+//        five.test1();
+//        five.test2();
 
+
+        Six six = new Six();
+        six.test();
 
 
     }
