@@ -1,5 +1,7 @@
 package com.study.days;
 
+import java.util.Scanner;
+
 public class Eleven {
 //    Objective
 //    Today we will work with a Linked List. Check out the Tutorial tab for learning materials and an instructional video.
@@ -39,5 +41,51 @@ public class Eleven {
 //, so your method will insert  nodes into an initially empty list.
 //    First the code returns a new node that contains the data value  as the  of the list. Then create and insert nodes , , and  at the tail of the list.
 //
+
+
+
+    static class Node {
+        int data;
+        Node next;
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+    }
+
+    static class Solution {
+
+        public static  Node insert(Node head,int data) {
+            //Complete this method
+            if(head==null){
+                return new Node(data);
+            }else if(head.next==null){
+                return insert(head,data);
+            }else{
+                return head;
+            }
+        }
+
+        public static void display(Node head) {
+            Node start = head;
+            while(start != null) {
+                System.out.print(start.data + " ");
+                start = start.next;
+            }
+        }
+
+        public static void main(String args[]) {
+            Scanner sc = new Scanner(System.in);
+            Node head = null;
+            int N = sc.nextInt();
+
+            while(N-- > 0) {
+                int ele = sc.nextInt();
+                head = insert(head,ele);
+            }
+            display(head);
+            sc.close();
+        }
+    }
 
 }
