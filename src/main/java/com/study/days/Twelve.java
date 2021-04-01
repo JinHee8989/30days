@@ -1,5 +1,7 @@
 package com.study.days;
 
+import java.util.Scanner;
+
 public class Twelve {
 //    Objective
 //    Today, we're getting started with Exceptions by learning how to parse an integer from a string and print a custom error message. Check out the Tutorial tab for learning materials and an instructional video!
@@ -38,4 +40,18 @@ public class Twelve {
 //    Sample Case  contains an integer, so it should not raise an exception when we attempt to convert it to an integer. Thus, we print the .
 //    Sample Case  does not contain any integers, so an attempt to convert it to an integer will raise an exception. Thus, our exception handler prints Bad String.
 //
+
+    public void test() {
+        Scanner in = new Scanner(System.in);
+        String S = in.next();
+
+        try {
+            int i = Integer.valueOf(S);
+            System.out.print(i);
+
+        } catch (Exception e) {
+            System.out.print("Bad String");
+        }
+
+    }
 }
