@@ -59,11 +59,11 @@ public class Eleven {
             //Complete this method
             if(head==null){
                 return new Node(data);
-            }else if(head.next==null){
-                return insert(head,data);
             }else{
+                head.next = insert(head.next,data);
                 return head;
             }
+
         }
 
         public static void display(Node head) {
