@@ -32,5 +32,6 @@ public class Tirteen {
 //    racecar
 //    Sample Output
 //
+    //
 //    The word, racecar, is a palindrome.
 }
