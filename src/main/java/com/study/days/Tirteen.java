@@ -40,6 +40,8 @@ public class Tirteen {
     public void test1(){
         System.out.println("test1");
         System.out.println("test1에 커밋 추가하기!!");
+        System.out.println("왜 이렇게 conflict나니 ");
+
     }
 
 
