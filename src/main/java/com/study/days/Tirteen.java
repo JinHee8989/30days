@@ -35,4 +35,12 @@ public class Tirteen {
     //
     //
 //    The word, racecar, is a palindrome.
+
+
+    public void test1(){
+        System.out.println("test1");
+        System.out.println("test1에 커밋 추가하기");
+    }
+
+
 }
