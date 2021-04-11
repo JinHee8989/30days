@@ -35,4 +35,6 @@ public class Tirteen {
     //
     //
 //    The word, racecar, is a palindrome.
+
+    //마스터에는 주석만 추가하기
 }
