@@ -41,6 +41,8 @@ public class Tirteen {
         System.out.println("test1");
         System.out.println("test1에 커밋 추가하기");
         System.out.println("아직까지 어떻게 작동하고 있는건지 모르겠음 ");
+
+
     }
 
 
