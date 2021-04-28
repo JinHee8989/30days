@@ -1,7 +1,6 @@
 package com.study;
 
-import com.study.days.Eight;
-import com.study.days.Ten;
+import com.study.days.StreamStudy;
 
 import java.io.IOException;
 
@@ -35,8 +34,12 @@ public class Application {
 //        Eight eight = new Eight();
 //        eight.test();
 
-        Ten ten  = new Ten();
-        ten.test();
+//        Ten ten  = new Ten();
+//        ten.test();
+
+        StreamStudy st = new StreamStudy();
+        st.test();
+
 
 
     }
