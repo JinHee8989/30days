@@ -101,6 +101,7 @@ public class Seven {
         }
 
         System.out.println(max);
+        System.out.println("max = " + max);
 
         scanner.close();
     }
