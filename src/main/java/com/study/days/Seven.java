@@ -102,7 +102,6 @@ public class Seven {
 
         System.out.println("m="+max);
 
-        System.out.println("칼퇴는 최고의 복지");
         scanner.close();
     }
 }
