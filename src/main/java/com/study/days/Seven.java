@@ -102,6 +102,7 @@ public class Seven {
 
         System.out.println("m="+max);
 
+
         scanner.close();
     }
 }
