@@ -100,7 +100,7 @@ public class Seven {
 
         }
 
-        System.out.println("m="+max);
+        System.out.println("m = "+max);
 
 
 
