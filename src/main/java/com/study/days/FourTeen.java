@@ -32,4 +32,6 @@ public class FourTeen {
 //    Sample Output
 //
 //    The word, racecar, is a palindrome.
+
+
 }
