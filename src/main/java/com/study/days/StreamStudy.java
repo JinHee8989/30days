@@ -26,9 +26,6 @@ public class StreamStudy {
 
         System.out.println("partSt = " + partSt);
 
-        System.out.println("내일부터 스프링시큐리티공부!!!");
-
-
     }
 
 }
