@@ -24,7 +24,8 @@ public class StreamStudy {
         //부분 스트림
         Stream<String> partSt= Arrays.stream(strArr,1,2);
 
-        System.out.println("partSt = " + partSt);
+//        System.out.println("partSt = " + partSt);
+
 
     }
 
